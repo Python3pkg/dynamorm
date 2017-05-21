@@ -8,7 +8,7 @@ import tarfile
 import tempfile
 
 try:
-    from urllib import urlretrieve
+    from urllib.request import urlretrieve
 except ImportError:
     from urllib.request import urlretrieve
 
